@@ -17,6 +17,7 @@ public class FirsTest {
 
     @BeforeClass
     public static void setup() {
+
         //System.setProperty("webdriver.chrome.driver", "E://QA/Automation/File/chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", "C://Automation Practic/chromedriver.exe");
         driver = new ChromeDriver();
